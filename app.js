@@ -34,7 +34,9 @@ var options = {
     // this is a fake url used by swagger authorization
   })
 
-
+  app.get('/', (req,res)=>{
+    res.send('<h1>Welcome dev portal test swagger documentation</h1>')
+  })
 
 
 app.listen(PORT,()=> console.log(`server started at http://${hostName}:${PORT}`))

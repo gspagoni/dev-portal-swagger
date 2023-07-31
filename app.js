@@ -17,11 +17,11 @@ var options = {
     swaggerOptions: {
       urls: [
         {
-          url: `http://${hostName}:${PORT}/idm.json`,
+          url: `http://localhost:${PORT}/idm.json`,
           name: 'IDM'
         },
         {
-          url: `http://${hostName}:${PORT}/mingle.json`,
+          url: `http://localhost:${PORT}/mingle.json`,
           name: 'Mingle'
         }
       ]
@@ -39,4 +39,4 @@ var options = {
   })
 
 
-app.listen(PORT,()=> console.log(`server started at http://${hostName}:${PORT}`))
+app.listen(PORT,()=> console.log(`server started at http://localhost:${PORT}`))

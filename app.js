@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3100
 const app = express()
 app.use(express.static("swagger-ui"));
 
-const CSS_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css";
+//const CSS_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css";
 
 
 var options = {
@@ -18,15 +18,15 @@ var options = {
     swaggerOptions: {
       urls: [
         {
-          url: `https://devportal-so79.onrender.com//idm.json`,
+          url: `https://devportal-so79.onrender.com/idm.json`,
           name: 'IDM'
         },
         {
-          url: `https://devportal-so79.onrender.com//mingle.json`,
+          url: `https://devportal-so79.onrender.com/mingle.json`,
           name: 'Mingle'
         }
-      ],
-      customCssUrl: CSS_URL
+      ]//,
+      //customCssUrl: CSS_URL
     }
   }
   

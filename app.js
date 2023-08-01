@@ -10,9 +10,6 @@ const PORT = process.env.PORT || 3100
 const app = express()
 app.use(express.static("swagger-ui"));
 
-//const CSS_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css";
-
-
 var options = {
     explorer: true,
     swaggerOptions: {
@@ -25,8 +22,7 @@ var options = {
           url: `/mingle.json`,
           name: 'Mingle'
         }
-      ]//,
-      //customCssUrl: CSS_URL
+      ]
     }
   }
   

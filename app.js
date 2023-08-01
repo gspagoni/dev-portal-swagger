@@ -18,11 +18,11 @@ var options = {
     swaggerOptions: {
       urls: [
         {
-          url: `http://localhost:${PORT}/idm.json`,
+          url: `https://https://devportal-2yyf.onrender.com:${PORT}/idm.json`,
           name: 'IDM'
         },
         {
-          url: `http://localhost:${PORT}/mingle.json`,
+          url: `https://https://devportal-2yyf.onrender.com:${PORT}/mingle.json`,
           name: 'Mingle'
         }
       ],

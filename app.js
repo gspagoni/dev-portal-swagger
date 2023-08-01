@@ -37,7 +37,7 @@ var options = {
   })
 
   app.get('/', (req,res)=>{
-    res.send('<h1>Welcome dev portal test swagger documentation</h1>')
+    res.send('<h1>Welcome dev portal test swagger documentation</h1><br><a href="/api-docs">Click me</a>')
   })
 
 

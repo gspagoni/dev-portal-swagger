@@ -1,8 +1,5 @@
-const os = require("os")
 const express = require("express");
 const swaggerUi = require("swagger-ui-express");
-const fs = require("fs");
-const path = require("path");
 require('dotenv').config()
 
 const PORT = process.env.PORT || 3100
